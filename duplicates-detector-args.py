@@ -7,7 +7,7 @@ import re
 
 VERSION = "0.1"
 
-#global debug
+# Global debug
  
 #def findDup(parentFolder,exclude_fld):
 def findDup(parentFolder):
@@ -156,8 +156,8 @@ if __name__ == '__main__':
 
     # Ok first job : parse args
     opts, args = parser.parse_args()
-    if args:
-        parser.error("Does not accept any argument.")
+#    if args:
+#        parser.error("Does not accept any argument.")
     
     verbose = opts.verbose
     debug = opts.debug
