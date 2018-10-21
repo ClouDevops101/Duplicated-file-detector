@@ -3,7 +3,7 @@
 
 
 
-Description : A quick python script to free up disk space by comparing the sha1 of all file existing in differents folder.
+Description : A quick python script to free up disk space by comparing the sha1sum of all file existing in differents folder.
 
 HOW It WORKS
 ================
